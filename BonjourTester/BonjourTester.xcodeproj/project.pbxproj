@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD312251361F5F60070EC91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD312241361F5F60070EC91 /* Cocoa.framework */; };
+		7DD3122F1361F5F60070EC91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD3122D1361F5F60070EC91 /* InfoPlist.strings */; };
+		7DD312321361F5F60070EC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD312311361F5F60070EC91 /* main.m */; };
+		7DD312381361F5F60070EC91 /* BonjourTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD312371361F5F60070EC91 /* BonjourTesterAppDelegate.m */; };
+		7DD3123B1361F5F60070EC91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD312391361F5F60070EC91 /* MainMenu.xib */; };
+		7DD312591361FE550070EC91 /* ServicePublisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD312581361FE550070EC91 /* ServicePublisher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DD312201361F5F60070EC91 /* BonjourTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD312241361F5F60070EC91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7DD312271361F5F60070EC91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7DD312281361F5F60070EC91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7DD312291361F5F60070EC91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DD3122C1361F5F60070EC91 /* BonjourTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BonjourTester-Info.plist"; sourceTree = "<group>"; };
+		7DD3122E1361F5F60070EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DD312301361F5F60070EC91 /* BonjourTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BonjourTester-Prefix.pch"; sourceTree = "<group>"; };
+		7DD312311361F5F60070EC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DD312361361F5F60070EC91 /* BonjourTesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonjourTesterAppDelegate.h; sourceTree = "<group>"; };
+		7DD312371361F5F60070EC91 /* BonjourTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BonjourTesterAppDelegate.m; sourceTree = "<group>"; };
+		7DD3123A1361F5F60070EC91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7DD312571361FE550070EC91 /* ServicePublisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePublisher.h; sourceTree = "<group>"; };
+		7DD312581361FE550070EC91 /* ServicePublisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePublisher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD3121D1361F5F60070EC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD312251361F5F60070EC91 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DD312151361F5F60070EC91 = {
+			isa = PBXGroup;
+			children = (
+				7DD3122A1361F5F60070EC91 /* BonjourTester */,
+				7DD312231361F5F60070EC91 /* Frameworks */,
+				7DD312211361F5F60070EC91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD312211361F5F60070EC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD312201361F5F60070EC91 /* BonjourTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD312231361F5F60070EC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DD312241361F5F60070EC91 /* Cocoa.framework */,
+				7DD312261361F5F60070EC91 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DD312261361F5F60070EC91 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DD312271361F5F60070EC91 /* AppKit.framework */,
+				7DD312281361F5F60070EC91 /* CoreData.framework */,
+				7DD312291361F5F60070EC91 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7DD3122A1361F5F60070EC91 /* BonjourTester */ = {
+			isa = PBXGroup;
+			children = (
+				7DD312361361F5F60070EC91 /* BonjourTesterAppDelegate.h */,
+				7DD312371361F5F60070EC91 /* BonjourTesterAppDelegate.m */,
+				7DD312571361FE550070EC91 /* ServicePublisher.h */,
+				7DD312581361FE550070EC91 /* ServicePublisher.m */,
+				7DD312391361F5F60070EC91 /* MainMenu.xib */,
+				7DD3122B1361F5F60070EC91 /* Supporting Files */,
+			);
+			path = BonjourTester;
+			sourceTree = "<group>";
+		};
+		7DD3122B1361F5F60070EC91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DD3122C1361F5F60070EC91 /* BonjourTester-Info.plist */,
+				7DD3122D1361F5F60070EC91 /* InfoPlist.strings */,
+				7DD312301361F5F60070EC91 /* BonjourTester-Prefix.pch */,
+				7DD312311361F5F60070EC91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD3121F1361F5F60070EC91 /* BonjourTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD3123E1361F5F60070EC91 /* Build configuration list for PBXNativeTarget "BonjourTester" */;
+			buildPhases = (
+				7DD3121C1361F5F60070EC91 /* Sources */,
+				7DD3121D1361F5F60070EC91 /* Frameworks */,
+				7DD3121E1361F5F60070EC91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourTester;
+			productName = BonjourTester;
+			productReference = 7DD312201361F5F60070EC91 /* BonjourTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD312171361F5F60070EC91 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7DD3121A1361F5F60070EC91 /* Build configuration list for PBXProject "BonjourTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DD312151361F5F60070EC91;
+			productRefGroup = 7DD312211361F5F60070EC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD3121F1361F5F60070EC91 /* BonjourTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD3121E1361F5F60070EC91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD3122F1361F5F60070EC91 /* InfoPlist.strings in Resources */,
+				7DD3123B1361F5F60070EC91 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD3121C1361F5F60070EC91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD312321361F5F60070EC91 /* main.m in Sources */,
+				7DD312381361F5F60070EC91 /* BonjourTesterAppDelegate.m in Sources */,
+				7DD312591361FE550070EC91 /* ServicePublisher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DD3122D1361F5F60070EC91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD3122E1361F5F60070EC91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DD312391361F5F60070EC91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD3123A1361F5F60070EC91 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DD3123C1361F5F60070EC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7DD3123D1361F5F60070EC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7DD3123F1361F5F60070EC91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourTester/BonjourTester-Prefix.pch";
+				INFOPLIST_FILE = "BonjourTester/BonjourTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DD312401361F5F60070EC91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourTester/BonjourTester-Prefix.pch";
+				INFOPLIST_FILE = "BonjourTester/BonjourTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD3121A1361F5F60070EC91 /* Build configuration list for PBXProject "BonjourTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD3123C1361F5F60070EC91 /* Debug */,
+				7DD3123D1361F5F60070EC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD3123E1361F5F60070EC91 /* Build configuration list for PBXNativeTarget "BonjourTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD3123F1361F5F60070EC91 /* Debug */,
+				7DD312401361F5F60070EC91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DD312171361F5F60070EC91 /* Project object */;
+}

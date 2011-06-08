@@ -1,0 +1,19 @@
+.DS_Store
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+xcuserdata/
+project.xcworkspace/
+VersionX-revision.h
+build/
+*.[oa]
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
